@@ -1,0 +1,367 @@
+
+html,body{
+	height:450px;
+	min-height:450px;
+	width:500px;
+}
+.page-container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F2F2F2;
+	font-weight: 200;
+	padding-bottom:16px;
+}
+#header{
+	background:#33b2e3;
+	color:white;
+	width:100%;
+}
+#title{
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 8px;
+}
+#logo{
+	background:url('../images/logo.png');
+	height:36px;
+	width:36px;
+	background-size:cover;
+	display:inline-block;
+}
+#deviceName{
+	background-color:#F2F2F2;
+	font-size:18px;
+	color: #4b5c62;
+	border: none;
+	width:100%;
+	margin-top:8px;
+}
+#devices{
+
+}
+.device{
+	margin-top:12px;
+	margin-bottom:12px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#33b2e3;
+	height:150px;
+	width:150px;
+	border-radius: 5px;
+	position:relative;
+}
+.device .img{
+	height:120px;
+	width:120px;
+	margin:auto;
+	opacity:0.4;
+}
+.device h2{
+	background:#4b5c62;
+	color:white;
+	font-size:18px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	font-weight:200;
+	margin:0;
+	text-align: center;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.device.active{
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
+	background:#FFF954;
+	font-weight:400;
+}
+#message{
+	background:#ffffff;
+	height: 100px;
+	border: 1px solid #B0B0B0 ;
+	border-radius: 5px;
+	color:#808080 ;
+	-webkit-appearance:textarea;
+	overflow:auto;
+	padding:8px;
+	margin: 8px;
+}
+.largeButton{
+	height:36px;
+	width: 90%;
+	background:#33B2E3;
+	border-radius:5px;
+	position:relative;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.largeButton .text{
+	padding-top: 8;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+.largeButton:hover{
+	background:#FFF954;
+}
+.largeButton .button{
+	height:20px;
+	width:20px;
+	right:4px;
+	top:8px;
+	position:absolute;
+}
+.button{
+	height:36px;
+	width:36px;
+	float:right;
+}
+#header .button{
+	margin-left:8px;
+}
+#header .button.refresh{
+	background:url('../images/refresh_white.png');
+	background-size:cover;
+}
+#header .button.history{
+	background:url('../images/history_white.png');
+	background-size:cover;
+}
+#header .button.send{
+	background:url('../images/send_white.png');
+	background-size:cover;
+}
+.button.delete{
+	background:url('../images/action_delete_blue.png');
+	background-size:cover;
+}
+.button.share{
+	background:url('../images/action_share_blue.png');
+	background-size:cover;
+}
+.button.send{
+	background:url('../images/action_send_blue.png');
+	background-size:cover;
+}
+.button.open{
+	background:url('../images/action_open_blue.png');
+	background-size:cover;
+}
+.largeButton .button.send{
+	background:url('../images/send_white.png');
+	background-size:cover;
+}
+.largeButton .button.upload{
+	background:url('../images/upload_white.png');
+	background-size:cover;
+}
+.largeButton .button.clear{
+	background:url('../images/clear_white.png');
+	background-size:cover;
+}
+.buttons{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.buttons .button{
+	display:inline-block
+}
+#sendPage .message{
+	max-height:150px;
+	text-overflow:ellipsis;
+
+}
+#historyPage .history, #openMessagePage .history{
+	position:relative;
+	padding: 6px;
+	margin-top:6px;
+	margin-right: 6px;
+	margin-left:6px;
+	min-height:100px;
+	background-color:#ffffff;
+	border-radius:6px;
+}
+#historyPage .message{
+	font-size:16px;
+	margin-right: 36px;
+}
+#historyPage .message, #openMessagePage .message{
+	max-height:150px;
+	text-overflow:ellipsis;
+}
+#historyPage .image, #openMessagePage .image{
+	height:150px;
+	margin-right: 48px;
+}
+#historyPage .date, #openMessagePage .date{
+	font-size:12px;
+	color: #858585;
+}
+#historyPage .buttons, #openMessagePage .buttons{
+	width:48px;
+}
+#historyPage .buttons .button, #openMessagePage .buttons .button{
+	display:block;
+}
+/* The MIT License */
+.fileUploads,
+.fileUploads *,
+.fileUploads-previews,
+.fileUploads-previews * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fileUploads {
+  position: relative;
+  background: rgba(0,0,0,0.02);
+}
+.fileUploads.dz-clickable {
+  cursor: pointer;
+}
+.fileUploads.dz-clickable .dz-message,
+.fileUploads.dz-clickable .dz-message span {
+  cursor: pointer;
+}
+.fileUploads.dz-clickable * {
+  cursor: default;
+}
+.fileUploads .dz-message {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.fileUploads.dz-drag-hover {
+  border-color: rgba(0,0,0,0.15);
+  background: rgba(0,0,0,0.04);
+}
+.fileUploads.dz-started .dz-message {
+  display: none;
+}
+.fileUploads .dz-preview,
+.fileUploads-previews .dz-preview {
+  background: rgba(255,255,255,0.8);
+  position: relative;
+  display: inline-block;
+  margin: 17px;
+  vertical-align: top;
+  border: 1px solid #acacac;
+  padding: 6px 6px 6px 6px;
+}
+.fileUploads .dz-preview.dz-file-preview [data-dz-thumbnail],
+.fileUploads-previews .dz-preview.dz-file-preview [data-dz-thumbnail] {
+  display: none;
+}
+.fileUploads .dz-preview .dz-details,
+.fileUploads-previews .dz-preview .dz-details {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: #ebebeb;
+  padding: 5px;
+  margin-bottom: 22px;
+}
+.fileUploads .dz-preview .dz-details .dz-filename,
+.fileUploads-previews .dz-preview .dz-details .dz-filename {
+  overflow: hidden;
+  height: 100%;
+}
+.fileUploads .dz-preview .dz-details img,
+.fileUploads-previews .dz-preview .dz-details img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.fileUploads .dz-preview .dz-details .dz-size,
+.fileUploads-previews .dz-preview .dz-details .dz-size {
+  position: absolute;
+  bottom: -28px;
+  left: 3px;
+  height: 28px;
+  line-height: 28px;
+}
+.fileUploads .dz-preview.dz-error .dz-error-mark,
+.fileUploads-previews .dz-preview.dz-error .dz-error-mark {
+  display: block;
+}
+.fileUploads .dz-preview.dz-success .dz-success-mark,
+.fileUploads-previews .dz-preview.dz-success .dz-success-mark {
+  display: block;
+}
+.fileUploads .dz-preview:hover .dz-details img,
+.fileUploads-previews .dz-preview:hover .dz-details img {
+  display: none;
+}
+.fileUploads .dz-preview .dz-success-mark,
+.fileUploads-previews .dz-preview .dz-success-mark,
+.fileUploads .dz-preview .dz-error-mark,
+.fileUploads-previews .dz-preview .dz-error-mark {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  right: -10px;
+  top: -10px;
+}
+.fileUploads .dz-preview .dz-success-mark,
+.fileUploads-previews .dz-preview .dz-success-mark {
+  color: #8cc657;
+}
+.fileUploads .dz-preview .dz-error-mark,
+.fileUploads-previews .dz-preview .dz-error-mark {
+  color: #ee162d;
+}
+.fileUploads .dz-preview .dz-progress,
+.fileUploads-previews .dz-preview .dz-progress {
+  position: absolute;
+  top: 100px;
+  left: 6px;
+  right: 6px;
+  height: 6px;
+  background: #d7d7d7;
+  display: none;
+}
+.fileUploads .dz-preview .dz-progress .dz-upload,
+.fileUploads-previews .dz-preview .dz-progress .dz-upload {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background-color: #8cc657;
+}
+.fileUploads .dz-preview.dz-processing .dz-progress,
+.fileUploads-previews .dz-preview.dz-processing .dz-progress {
+  display: block;
+}
+.fileUploads .dz-preview .dz-error-message,
+.fileUploads-previews .dz-preview .dz-error-message {
+  display: none;
+  position: absolute;
+  top: -5px;
+  left: -20px;
+  background: rgba(245,245,245,0.8);
+  padding: 8px 10px;
+  color: #800;
+  min-width: 140px;
+  max-width: 500px;
+  z-index: 500;
+}
+.fileUploads .dz-preview:hover.dz-error .dz-error-message,
+.fileUploads-previews .dz-preview:hover.dz-error .dz-error-message {
+  display: block;
+}
