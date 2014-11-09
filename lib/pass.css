@@ -1,7 +1,7 @@
 
 html,body{
-	height:450px;
-	min-height:450px;
+	height:350px;
+	min-height:350px;
 	width:500px;
 }
 .page-container{
@@ -12,10 +12,14 @@ html,body{
 	font-weight: 200;
 	padding-bottom:16px;
 }
+.ui-popup{
+	font-weight: 200;
+}
 #header{
 	background:#33b2e3;
 	color:white;
 	width:100%;
+	position:relative;
 }
 #title{
 	font-size: 18px;
@@ -31,15 +35,21 @@ html,body{
 	display:inline-block;
 }
 #deviceName{
-	background-color:#F2F2F2;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	width:150px;
+	top:6px;
+	position:absolute;
 	font-size:18px;
-	color: #4b5c62;
+	background: none;
 	border: none;
-	width:100%;
-	margin-top:8px;
+	color: #FFF;
+	font-weight: 200;
 }
 #devices{
-
+	width: 480px;
 }
 .device{
 	margin-top:12px;
@@ -47,14 +57,14 @@ html,body{
 	margin-left:auto;
 	margin-right:auto;
 	background:#33b2e3;
-	height:150px;
-	width:150px;
+	height: 120px;
+	width: 120px;
 	border-radius: 5px;
 	position:relative;
 }
 .device .img{
-	height:120px;
-	width:120px;
+	height: 100px;
+	width: 100px;
 	margin:auto;
 	opacity:0.4;
 }
@@ -68,11 +78,11 @@ html,body{
 	font-weight:200;
 	margin:0;
 	text-align: center;
-	-webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    transition: all 500ms ease;
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    transition: all 100ms ease;
 }
 .device.active{
 	-webkit-transition: all 500ms ease;
@@ -111,48 +121,95 @@ html,body{
 }
 .largeButton:hover{
 	background:#FFF954;
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    transition: all 100ms ease;
 }
 .largeButton .button{
 	height:20px;
 	width:20px;
 	right:4px;
-	top:8px;
+	top:4px;
 	position:absolute;
 }
 .button{
-	height:36px;
-	width:36px;
+	height:24px;
+	width:24px;
 	float:right;
+	margin-top: 4px;
 }
 #header .button{
-	margin-left:8px;
+	margin-left:10px;
+	width:32px;
+	height:32px;
 }
-#header .button.refresh{
-	background:url('../images/refresh_white.png');
+.device .button-back{
+	opacity:0;
+	height:28px;
+	width:28px;
+	border-radius:50%;
+	background: #4B5C62;
+	box-shadow: 3px 3px 3px #888888;
+	position:relative;
+	margin-top: 2px;
+}
+.device .button-back.visible{
+	opacity:1;
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+}
+.device .button{
+	position:absolute;
+	right: 1px;
+	opacity: 0.8;
+	margin-top: 2px;
+}
+.device .button-back:hover{
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    transition: all 100ms ease;
+	background:#FFF954;
+}
+.button.deviceSettings.white{
+	background:url('../images/deviceSettings_white.png');
 	background-size:cover;
 }
-#header .button.history{
+.button.logout.white{
+	background:url('../images/logout_white.png');
+	background-size:cover;
+}
+.button.history.white{
 	background:url('../images/history_white.png');
 	background-size:cover;
 }
-#header .button.send{
+.button.send.white{
 	background:url('../images/send_white.png');
 	background-size:cover;
 }
-.button.delete{
-	background:url('../images/action_delete_blue.png');
+.button.name.white{
+	background:url('../images/deviceSettings_white.png');
 	background-size:cover;
 }
-.button.share{
-	background:url('../images/action_share_blue.png');
+.button.delete.white{
+	background:url('../images/delete_white.png');
+	background-size:cover;
+}
+.button.delete{
+	background:url('../images/delete_blue.png');
 	background-size:cover;
 }
 .button.send{
-	background:url('../images/action_send_blue.png');
+	background:url('../images/send_blue.png');
 	background-size:cover;
 }
 .button.open{
-	background:url('../images/action_open_blue.png');
+	background:url('../images/open_blue.png');
 	background-size:cover;
 }
 .largeButton .button.send{
@@ -171,9 +228,15 @@ html,body{
 	position:absolute;
 	right:0;
 	top:0;
+	width:24px;
+}
+.device .buttons{
+	width:28px;
+	right: -16px;
+	top: -12px;
 }
 .buttons .button{
-	display:inline-block
+	display:inline-block;
 }
 #sendPage .message{
 	max-height:150px;
@@ -192,7 +255,7 @@ html,body{
 }
 #historyPage .message{
 	font-size:16px;
-	margin-right: 36px;
+	margin-right: 24px;
 }
 #historyPage .message, #openMessagePage .message{
 	max-height:150px;
@@ -207,10 +270,18 @@ html,body{
 	color: #858585;
 }
 #historyPage .buttons, #openMessagePage .buttons{
-	width:48px;
+	right:4px;
 }
 #historyPage .buttons .button, #openMessagePage .buttons .button{
 	display:block;
+}
+#historyPage .buttons .button:hover, #openMessagePage .buttons .button:hover, #header .button:hover{
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    transition: all 100ms ease;
+	transform:scale(1.1,1.1);
 }
 /* The MIT License */
 .fileUploads,

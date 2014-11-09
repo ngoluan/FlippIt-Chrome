@@ -18,18 +18,22 @@
 
 <div data-role="page" id="home">
 	<div class="page-container">
-		<div class="ui-grid-a" id="header">
-		<div class="ui-block-a">
-			<div id="logo"></div>
-			<div id="title">Pass</div>
+		<div id="header">
+			<div class="ui-grid-a">
+				<div class="ui-block-a">
+					<div id="logo"></div>
+					<div id="title">Pass</div>
+				</div>
+				<div class="ui-block-b">
+					<div class="button logout white"></div>
+					<div class="button deviceSettings white"></div>
+					<div class="button history white"></div>
+					<div class="button send white"></div>
+				</div>
+			</div>
+			<input type="text" id="deviceName" placeholder="chrome" data-role="none" name="deviceName">
 		</div>
-		<div class="ui-block-b">
-			<div class="button refresh"></div>
-			<div class="button history"></div>
-			<div class="button send"></div>
-		</div>
-		</div>
-		<div id="loginPage" class="page" style="display:none;">
+		<div id="loginPage" class="page" style="display:none; height:350px;">
 			<input type="text" name="email" id="email" placeholder="email@address.com">
 			<input type="password" name="password" id="password" value="">
 			<div style="width:50%; margin:auto;">
@@ -43,9 +47,9 @@
 			<div class="fileUploads"></div>
 
 			<div class="ui-grid-b">
-				<div class="ui-block-a"><div id="send" class="largeButton"><div class="text">Send</div><div class="button send"></div></div> </div>
-				<div class="ui-block-b"><div id="upload" class="largeButton"><div class="text">Upload File</div><div class="button upload"></div></div> </div>
-				<div class="ui-block-c"><div id="clear" class="largeButton"><div class="text">Clear</div><div class="button clear"></div></div> </div>
+				<div class="ui-block-a"><div id="send" class="largeButton"><div class="text">send</div><div class="button send"></div></div> </div>
+				<div class="ui-block-b"><div id="upload" class="largeButton"><div class="text">upload file</div><div class="button upload"></div></div> </div>
+				<div class="ui-block-c"><div id="clear" class="largeButton"><div class="text">clear</div><div class="button clear"></div></div> </div>
 			</div><!-- /grid-a -->
 		</div>
 		<div id="historyPage" class="page" style="display:none;">
@@ -55,6 +59,18 @@
 
 		</div>
 		<div data-role="popup" id="popUp"></div>
+		<div data-role="popup" id="deviceNameDialog" data-dismissible="false" style="max-width:400px;">
+			<div data-role="header">
+				<h1>Change name to:</h1>
+			</div>
+			<div role="main" class="ui-content">
+				<input type="text" id="deviceNameDialog" placeholder="device name" data-role="none" name="deviceName">
+			<div class="ui-grid-a">
+				<div class="ui-block-a"><div id="send" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
+				<div class="ui-block-b"><div id="upload" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
+			</div><!-- /grid-a -->
+			</div>
+		</div>
 	</div>
 
 </div>
