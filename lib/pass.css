@@ -46,7 +46,7 @@ html,body{
 	background: none;
 	border: none;
 	color: #FFF;
-	font-weight: 200;
+	opacity:0;
 }
 #devices{
 	width: 480px;
@@ -155,7 +155,7 @@ html,body{
 	position:relative;
 	margin-top: 2px;
 }
-.device .button-back.visible{
+.device .button-back.visible, #deviceName.visible{
 	opacity:1;
 	-webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
