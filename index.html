@@ -25,7 +25,6 @@
 					<div id="title">Pass</div>
 				</div>
 				<div class="ui-block-b">
-					<div class="button logout white"></div>
 					<div class="button deviceSettings white"></div>
 					<div class="button history white"></div>
 					<div class="button send white"></div>
@@ -54,8 +53,8 @@
 			</div><!-- /grid-a -->
 		</div>
 		<div id="historyPage" class="page" style="display:none;">
-
-		</div>
+            <div id="loadMore" class="largeButton"><div class="text">load more</div><div class="button"></div></div>
+        </div>
 		<div id="openMessagePage" class="page" style="display:none;">
 
 		</div>
@@ -65,13 +64,21 @@
 				<h1>Change name to:</h1>
 			</div>
 			<div role="main" class="ui-content">
-				<input type="text" id="deviceNameDialog" placeholder="device name" data-role="none" name="deviceName">
+				<input type="text" id="otherDeviceName" placeholder="device name" data-role="none" name="deviceName">
 			<div class="ui-grid-a">
-				<div class="ui-block-a"><div id="send" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
-				<div class="ui-block-b"><div id="upload" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
+				<div class="ui-block-a"><div id="save" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
+				<div class="ui-block-b"><div id="cancel" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
 			</div><!-- /grid-a -->
 			</div>
 		</div>
+        <div class="footer">
+            <div id="diskSpace" style="display:inline-block"></div>
+            <div class="footerButtons">
+                <div id="help" class="footerButton">help</div>
+                <div id="logout" class="footerButton">logout</div>
+            </div>
+
+        </div>
 	</div>
 
 </div>

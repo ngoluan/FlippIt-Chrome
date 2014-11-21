@@ -188,6 +188,10 @@ html,body{
 	background:url('../images/history_white.png');
 	background-size:cover;
 }
+.button.refresh.white{
+    background:url('../images/refresh_white.png');
+    background-size:cover;
+}
 .button.send.white{
 	background:url('../images/send_white.png');
 	background-size:cover;
@@ -237,6 +241,20 @@ html,body{
 }
 .buttons .button{
 	display:inline-block;
+}
+.footer {
+    margin-top:4px;
+    margin-left:8px;
+    margin-right:8px;
+    margin-bottom:12px;
+    font-size: 14px;
+}
+.footer .footerButtons{
+    float:right;
+}
+.footer .footerButton{
+    margin-left:4px;
+    display:inline-block;
 }
 #sendPage .message{
 	max-height:150px;
