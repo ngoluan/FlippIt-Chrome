@@ -6,13 +6,15 @@
 <link rel="stylesheet" href="lib/jq/theme.css" />
 <link rel="stylesheet" href="lib/jq/jquery.mobile.icons.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+<link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css" />
 <link rel="stylesheet" href="lib/pass.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 <script src="lib/jq/jquery.min.js"></script>
 <script src="lib/jq/jquery.mobile-1.4.4.min.js"></script>
 <script src="lib/dropzone.js"></script>
-<script src="lib/pass.js"></script>
 
+    <script src="lib/bxslider/bxslider.min.js"></script>
+    <script src="lib/pass.js"></script>
 </head>
 <body>
 
@@ -43,7 +45,45 @@
 		</div>
 		<div id="sendPage" class="page">
 			<div class="ui-grid-b" id="devices"></div>
-			<div id="message" contentEditable="true">Type message or drag and drop file here</div>
+            <div id="test">
+                <div class="device " data-index="0">
+                    <div class="buttons">
+                        <div class="button-back name" data-index="0">
+                            <div class="button name white"></div>
+                        </div>
+                        <div class="button-back delete" data-index="0">
+                            <div class="button delete white"></div>
+                        </div>
+                    </div>
+                    <div class="img" style="background-image: url('images/cloud_black.png');background-size: cover;"></div>
+                    <h2>cloud</h2>
+                </div>
+                <div class="device " data-index="0">
+                    <div class="buttons">
+                        <div class="button-back name" data-index="0">
+                            <div class="button name white"></div>
+                        </div>
+                        <div class="button-back delete" data-index="0">
+                            <div class="button delete white"></div>
+                        </div>
+                    </div>
+                    <div class="img" style="background-image: url('images/cloud_black.png');background-size: cover;"></div>
+                    <h2>cloud</h2>
+                </div>
+                <div class="device " data-index="0">
+                    <div class="buttons">
+                        <div class="button-back name" data-index="0">
+                            <div class="button name white"></div>
+                        </div>
+                        <div class="button-back delete" data-index="0">
+                            <div class="button delete white"></div>
+                        </div>
+                    </div>
+                    <div class="img" style="background-image: url('images/cloud_black.png');background-size: cover;"></div>
+                    <h2>cloud</h2>
+                </div>
+            </div>
+            <div id="message" contentEditable="true">Type message or drag and drop file here</div>
 			<div class="fileUploads"></div>
 
 			<div class="ui-grid-b">
