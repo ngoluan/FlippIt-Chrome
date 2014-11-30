@@ -25,6 +25,7 @@
     "https://www.googleapis.com/chromewebstore/v1.1/notifications",
 	"tabs",
 	"gcm", 
-	"storage"
+	"storage",
+	"fileSystem"
   ]
 }

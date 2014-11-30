@@ -62,6 +62,9 @@ html,body{
 	border-radius: 5px;
 	position:relative;
 }
+.bx-viewport{
+    height:140px !important;
+}
 .device .img{
 	height: 100px;
 	width: 100px;
@@ -113,12 +116,20 @@ html,body{
 	margin-left: 5%;
 	margin-right: 5%;
 }
+.largeButton.active{
+    background:#FFF954;
+}
 .largeButton .text{
 	padding-top: 8;
 	text-align:center;
 	color:white;
-	cursor:pointer;
 }
+.largeButton.active .text{
+    padding-top: 8;
+    text-align:center;
+    color:#33B2E3;
+}
+
 .largeButton:hover{
 	background:#FFF954;
 	-webkit-transition: all 100ms ease;
@@ -126,6 +137,7 @@ html,body{
     -o-transition: all 100ms ease;
     -ms-transition: all 100ms ease;
     transition: all 100ms ease;
+    cursor:pointer;
 }
 .largeButton .button{
 	height:20px;
@@ -184,9 +196,13 @@ html,body{
 	background:url('../images/logout_white.png');
 	background-size:cover;
 }
-.button.history.white{
+.button.history.white, .button.save.white{
 	background:url('../images/history_white.png');
 	background-size:cover;
+}
+.button.save.blue{
+    background:url('../images/history_blue.png');
+    background-size:cover;
 }
 .button.refresh.white{
     background:url('../images/refresh_white.png');

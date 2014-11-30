@@ -13,7 +13,7 @@
 <script src="lib/jq/jquery.mobile-1.4.4.min.js"></script>
 <script src="lib/dropzone.js"></script>
 
-    <script src="lib/bxslider/bxslider.min.js"></script>
+    <script src="lib/bxslider/jquery.bxslider.min.js"></script>
     <script src="lib/pass.js"></script>
 </head>
 <body>
@@ -44,52 +44,18 @@
 			</div>
 		</div>
 		<div id="sendPage" class="page">
-			<div class="ui-grid-b" id="devices"></div>
-            <div id="test">
-                <div class="device " data-index="0">
-                    <div class="buttons">
-                        <div class="button-back name" data-index="0">
-                            <div class="button name white"></div>
-                        </div>
-                        <div class="button-back delete" data-index="0">
-                            <div class="button delete white"></div>
-                        </div>
-                    </div>
-                    <div class="img" style="background-image: url('images/cloud_black.png');background-size: cover;"></div>
-                    <h2>cloud</h2>
-                </div>
-                <div class="device " data-index="0">
-                    <div class="buttons">
-                        <div class="button-back name" data-index="0">
-                            <div class="button name white"></div>
-                        </div>
-                        <div class="button-back delete" data-index="0">
-                            <div class="button delete white"></div>
-                        </div>
-                    </div>
-                    <div class="img" style="background-image: url('images/cloud_black.png');background-size: cover;"></div>
-                    <h2>cloud</h2>
-                </div>
-                <div class="device " data-index="0">
-                    <div class="buttons">
-                        <div class="button-back name" data-index="0">
-                            <div class="button name white"></div>
-                        </div>
-                        <div class="button-back delete" data-index="0">
-                            <div class="button delete white"></div>
-                        </div>
-                    </div>
-                    <div class="img" style="background-image: url('images/cloud_black.png');background-size: cover;"></div>
-                    <h2>cloud</h2>
-                </div>
-            </div>
+			<div id="devices"></div>
             <div id="message" contentEditable="true">Type message or drag and drop file here</div>
-			<div class="fileUploads"></div>
+
+            <div class="fileUploads"></div>
 
 			<div class="ui-grid-b">
-				<div class="ui-block-a"><div id="send" class="largeButton"><div class="text">send</div><div class="button send"></div></div> </div>
-				<div class="ui-block-b"><div id="upload" class="largeButton"><div class="text">upload file</div><div class="button upload"></div></div> </div>
-				<div class="ui-block-c"><div id="clear" class="largeButton"><div class="text">clear</div><div class="button clear"></div></div> </div>
+				<div class="ui-block-a"><div id="upload" class="largeButton">
+                    <div class="text">upload file</div><div class="button upload"></div></div> </div>
+				<div class="ui-block-b"><div id="save" class="largeButton">
+                    <div class="text">save</div><div class="button save white"></div></div> </div>
+				<div class="ui-block-c">
+                    <div id="clear" class="largeButton"><div class="text">clear</div><div class="button clear"></div></div> </div>
 			</div><!-- /grid-a -->
 		</div>
 		<div id="historyPage" class="page" style="display:none;">
