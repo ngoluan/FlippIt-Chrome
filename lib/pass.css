@@ -168,6 +168,7 @@ html, body {
     width: 24px;
     float: right;
     margin-top: 4px;
+    z-index:99;
 }
 
 #header .button {
