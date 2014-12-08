@@ -256,7 +256,14 @@ html, body {
     background: url('../images/delete_blue.png');
     background-size: cover;
 }
-
+.button.download {
+    background: url('../images/download_blue.png');
+    background-size: cover;
+}
+.button.copy {
+    background: url('../images/copy_blue.png');
+    background-size: cover;
+}
 .button.send {
     background: url('../images/send_blue.png');
     background-size: cover;
