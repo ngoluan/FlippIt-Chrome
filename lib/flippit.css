@@ -315,6 +315,7 @@ html, body {
 
 .footer .footerButtons {
     float: right;
+    cursor: pointer;
 }
 
 .footer .footerButton {

@@ -2,19 +2,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pass</title>
+<title>FlippIt</title>
 <link rel="stylesheet" href="lib/jq/theme.css" />
 <link rel="stylesheet" href="lib/jq/jquery.mobile.icons.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
 <link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css" />
-<link rel="stylesheet" href="lib/pass.css">
+<link rel="stylesheet" href="lib/flippit.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 <script src="lib/jq/jquery.min.js"></script>
 <script src="lib/jq/jquery.mobile-1.4.4.min.js"></script>
 <script src="lib/dropzone.js"></script>
 
     <script src="lib/bxslider/jquery.bxslider.min.js"></script>
-    <script src="lib/pass.js"></script>
+    <script src="lib/flippit.js"></script>
 </head>
 <body>
 
@@ -24,7 +24,7 @@
 			<div class="ui-grid-a">
 				<div class="ui-block-a">
 					<div id="logo"></div>
-					<div id="title">Pass</div>
+					<div id="title">FlippIt</div>
 				</div>
 				<div class="ui-block-b">
 					<div class="button deviceSettings white"></div>
@@ -75,6 +75,17 @@
 				<div class="ui-block-a"><div id="save2" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
 				<div class="ui-block-b"><div id="cancel" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
 			</div><!-- /grid-a -->
+			</div>
+		</div>
+		<div data-role="popup" id="helpDialog" data-dismissible="false" style="max-width:400px;">
+			<div data-role="header">
+				<h1>Tutorials</h1>
+			</div>
+			<div role="main" class="ui-content">
+				<ul data-role="listview">
+					    <li><a href="https://www.youtube.com/watch?v=zyfscyL1gJU">Tutorial: Sharing files</a></li>
+					    <li><a href="https://www.youtube.com/watch?v=m6S2m-vS204">Tutorial: Sharing text</a></li>
+				</ul>
 			</div>
 		</div>
         <div class="footer">
