@@ -1,19 +1,20 @@
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FlippIt</title>
-<link rel="stylesheet" href="lib/jq/theme.css" />
-<link rel="stylesheet" href="lib/jq/jquery.mobile.icons.min.css" />
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
-<link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css" />
-<link rel="stylesheet" href="lib/flippit.css">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-<script src="lib/jq/jquery.min.js"></script>
-<script src="lib/jq/jquery.mobile-1.4.4.min.js"></script>
-<script src="lib/dropzone.js"></script>
 
-    <script src="lib/bxslider/jquery.bxslider.min.js"></script>
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pass</title>
+	<link rel="stylesheet" href="lib/jq/theme.css" />
+	<link rel="stylesheet" href="lib/jq/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+	<link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css" />
+<link rel="stylesheet" href="lib/flippit.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<script src="lib/jq/jquery.min.js"></script>
+	<script src="lib/jq/jquery.mobile-1.4.4.min.js"></script>
+	<script src="lib/dropzone.js"></script>
+
+	<script src="lib/bxslider/jquery.bxslider.min.js"></script>
     <script src="lib/flippit.js"></script>
 </head>
 <body>
@@ -29,8 +30,7 @@
 				<div class="ui-block-b">
 					<div class="button deviceSettings white"></div>
 					<div class="button history white"></div>
-					<div class="button send white"></div>
-                    <div class="button refresh white"></div>
+					<div class="button refresh white"></div>
 				</div>
 			</div>
 			<input type="text" id="deviceName" placeholder="change device name" data-role="none" name="deviceName">
@@ -45,22 +45,22 @@
 		</div>
 		<div id="sendPage" class="page">
 			<div id="devices"></div>
-            <div id="message" contentEditable="true">Type message or drag and drop file here</div>
+			<div id="message" contentEditable="true">Type message or drag and drop file here</div>
 
-            <div class="fileUploads"></div>
+			<div class="fileUploads"></div>
 
 			<div class="ui-grid-b">
 				<div class="ui-block-a"><div id="upload" class="largeButton">
-                    <div class="text">upload file</div><div class="button upload"></div></div> </div>
+					<div class="text">upload file</div><div class="button upload"></div></div> </div>
 				<div class="ui-block-b"><div id="save" class="largeButton">
-                    <div class="text">save</div><div class="button save white"></div></div> </div>
+					<div class="text">save</div><div class="button save white"></div></div> </div>
 				<div class="ui-block-c">
-                    <div id="clear" class="largeButton"><div class="text">clear</div><div class="button clear"></div></div> </div>
+					<div id="clear" class="largeButton"><div class="text">clear</div><div class="button clear"></div></div> </div>
 			</div><!-- /grid-a -->
 		</div>
 		<div id="historyPage" class="page" style="display:none;">
-            <div id="loadMore" class="largeButton"><div class="text">load more</div><div class="button"></div></div>
-        </div>
+			<div id="loadMore" class="largeButton"><div class="text">load more</div><div class="button"></div></div>
+		</div>
 		<div id="openMessagePage" class="page" style="display:none;">
 
 		</div>
@@ -71,10 +71,10 @@
 			</div>
 			<div role="main" class="ui-content">
 				<input type="text" id="otherDeviceName" placeholder="device name" data-role="none" name="deviceName">
-			<div class="ui-grid-a">
-				<div class="ui-block-a"><div id="save2" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
-				<div class="ui-block-b"><div id="cancel" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
-			</div><!-- /grid-a -->
+				<div class="ui-grid-a" style="margin-top: 12px;">
+					<div class="ui-block-a"><div id="save2" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
+					<div class="ui-block-b"><div id="cancel" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
+				</div><!-- /grid-a -->
 			</div>
 		</div>
 		<div data-role="popup" id="helpDialog" data-dismissible="false" style="max-width:400px;">
@@ -88,14 +88,14 @@
 				</ul>
 			</div>
 		</div>
-        <div class="footer">
-            <div id="diskSpace" style="display:inline-block"></div>
-            <div class="footerButtons">
-                <div id="help" class="footerButton">help</div>
-                <div id="logout" class="footerButton">logout</div>
-            </div>
-            <input type="text" id="clipboard"  data-role="none" style="display:none;">
-        </div>
+		<div class="footer">
+			<div id="diskSpace" style="display:inline-block"></div>
+			<div class="footerButtons">
+				<div id="help" class="footerButton">help</div>
+				<div id="logout" class="footerButton">logout</div>
+			</div>
+			<input type="text" id="clipboard"  data-role="none" style="display:none;">
+		</div>
 	</div>
 
 </div>

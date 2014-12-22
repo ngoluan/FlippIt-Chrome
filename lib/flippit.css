@@ -4,7 +4,20 @@ html, body {
     min-height: 350px;
     width: 500px;
 }
-
+#logo,#title{
+    cursor: pointer;
+}
+#sendPage{
+    overflow:hidden;
+}
+.ui-title{
+    text-overflow: normal;
+    font-weight: 200;
+    font-size: 18px;
+}
+#otherDeviceName,#deviceName{
+    width:275px;
+}
 .page-container {
     max-width: 1000px;
     margin-left: auto;
@@ -134,7 +147,7 @@ html, body {
 }
 
 .largeButton .text {
-    padding-top: 8;
+    padding-top: 8px;
     text-align: center;
     color: white;
 }
@@ -309,7 +322,6 @@ html, body {
     margin-top: 4px;
     margin-left: 8px;
     margin-right: 8px;
-    margin-bottom: 12px;
     font-size: 14px;
 }
 
@@ -555,3 +567,7 @@ html, body {
 .fileUploads-previews .dz-preview:hover.dz-error .dz-error-message {
     display: block;
 }
+::-webkit-input-placeholder { color:#F2F2F2; }
+::-moz-placeholder { color:#F2F2F2; } /* firefox 19+ */
+:-ms-input-placeholder { color:#F2F2F2; } /* ie */
+input:-moz-placeholder { color:#F2F2F2; }
