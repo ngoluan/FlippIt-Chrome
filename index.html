@@ -3,22 +3,52 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Pass</title>
+	<title>FlippIt</title>
 	<link rel="stylesheet" href="lib/jq/theme.css" />
 	<link rel="stylesheet" href="lib/jq/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
 	<link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css" />
-<link rel="stylesheet" href="lib/flippit.css">
+	<link rel="stylesheet" href="lib/flippit.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 	<script src="lib/jq/jquery.min.js"></script>
 	<script src="lib/jq/jquery.mobile-1.4.4.min.js"></script>
 	<script src="lib/dropzone.js"></script>
 
 	<script src="lib/bxslider/jquery.bxslider.min.js"></script>
-    <script src="lib/flippit.js"></script>
+	<script src="lib/flippit.js"></script>
 </head>
 <body>
+<div data-role="page" id="loginPage" style="background:#33b2e3;">
+	<div style="max-width:200px; margin-left:auto; margin-right:auto; margin-top:50px;margin-bottom:25px;">
+		<div style="background: url('images/logo.png'); width:75px; height:75px; background-size:cover;display: inline-block; vertical-align: middle;"></div>
+		<div style="color:white;display: inline-block; vertical-align: middle;font-size: 36px;">FlippIt</div>
+	</div>
+	<div style="max-width:500px;margin:auto;background:#F2F2F2;padding: 10px; border-radius: 12px;">
+		<input type="text" name="email" id="email" placeholder="email@address.com">
+		<input type="password" name="password" id="password" placeholder="*******">
 
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="#" class="ui-btn" id="login">Login</a></div>
+			<div class="ui-block-b"><a href="#" class="ui-btn" id="reg">Register</a></div>
+		</div>
+	</div>
+	<div style="color:white;max-width:500px; margin:auto;">
+		<p>
+			FlippIt allows you to you effortlessly save and share across devices text, pictures, music and more!
+		</p>
+		<p>
+			Need to respond to a long message on the phone? Simply type it out on your computer, and it will be transferred to the clipboard of your phone to be pasted and sent in any app.
+		</p>
+		<p>
+			Need to edit a picture on the computer? Snap a picture with your phone, send and edit it on your computer, and send it back to your phone for posting.
+		</p>
+	</div>
+	<div style="margin:auto;width: 325px;";>
+		<div style="background: url('images/phone_white.png'); width:100px; height:100px; background-size:cover;display: inline-block;"></div>
+		<div style="background: url('images/doublearrows_white.png'); width:100px; height:100px; background-size:cover;display: inline-block;"></div>
+		<div style="background: url('images/computer_white.png'); width:100px; height:100px; background-size:cover;display: inline-block;"></div>
+	</div>
+</div>
 <div data-role="page" id="home">
 	<div class="page-container">
 		<div id="header">
@@ -35,14 +65,7 @@
 			</div>
 			<input type="text" id="deviceName" placeholder="change device name" data-role="none" name="deviceName">
 		</div>
-		<div id="loginPage" class="page" style="display:none; height:350px;">
-			<input type="text" name="email" id="email" placeholder="email@address.com">
-			<input type="password" name="password" id="password" value="">
-			<div style="width:50%; margin:auto;">
-				<a href="#" class="ui-btn ui-btn-inline" id="login">Login</a>
-				<a href="#" class="ui-btn ui-btn-inline" id="reg">Register</a>
-			</div>
-		</div>
+
 		<div id="sendPage" class="page">
 			<div id="devices"></div>
 			<div id="message" contentEditable="true">Type message or drag and drop file here</div>
@@ -64,7 +87,12 @@
 		<div id="openMessagePage" class="page" style="display:none;">
 
 		</div>
-		<div data-role="popup" id="popUp"></div>
+
+		<div id="welcomePage" class="page" style="display:none;">
+
+		</div>
+
+
 		<div data-role="popup" id="deviceNameDialog" data-dismissible="false" style="max-width:400px;">
 			<div data-role="header">
 				<h1>Change name to:</h1>
@@ -73,7 +101,7 @@
 				<input type="text" id="otherDeviceName" placeholder="device name" data-role="none" name="deviceName">
 				<div class="ui-grid-a" style="margin-top: 12px;">
 					<div class="ui-block-a"><div id="save2" class="largeButton"><div class="text">save</div><div class="button"></div></div> </div>
-					<div class="ui-block-b"><div id="cancel" class="largeButton"><div class="text">cancel</div><div class="button"></div></div> </div>
+					<div class="ui-block-b"><div class="largeButton popupClose"><div class="text">cancel</div><div class="button"></div></div> </div>
 				</div><!-- /grid-a -->
 			</div>
 		</div>
@@ -86,6 +114,7 @@
 					    <li><a href="https://www.youtube.com/watch?v=zyfscyL1gJU">Tutorial: Sharing files</a></li>
 					    <li><a href="https://www.youtube.com/watch?v=m6S2m-vS204">Tutorial: Sharing text</a></li>
 				</ul>
+				<div class="largeButton popupClose" style="margin-top: 32px;"><div class="text">close</div><div class="button"></div></div>
 			</div>
 		</div>
 		<div class="footer">
@@ -97,7 +126,7 @@
 			<input type="text" id="clipboard"  data-role="none" style="display:none;">
 		</div>
 	</div>
-
 </div>
+<div id="popUp" data-theme="a"></div>
 </body>
 </html>
