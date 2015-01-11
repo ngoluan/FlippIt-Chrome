@@ -84,6 +84,7 @@ html, body {
     display: inline-block;
 }
 #toast{
+    z-index: 99;
 	background-color: #4b5c62;
 	width: 400px;
 	border-radius: 4px;
