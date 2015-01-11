@@ -1,31 +1,29 @@
 {
   "manifest_version": 2,
-  "name": "Pass",
+  "name": "FlippIt",
   "background": {
      "page": "lib/eventPage.html"
   },
   "description": "Effortlessly save and share across devices text, pictures, music and more!",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArnmd0n50lY3/wxs2Anu7rY02Fo13wOa5Acx+AgBJuKPjoFdH+T99LS2+//g6kROgV70J4o5jlGcLsAarThR3nf+WLQEqoll96A8WEUGXDWrvOqNEU8a8yYDwaBoK1OiFzzxVDf4yhf2YAvBJ3QydvzMU6krwyiRMTKLQQPjraAcfevE2coXZ5UYPPAVT1vxwvFRl2F2YqX0CAWwh1XPceALXLcQIr19c5LjMRBK563KgA/65fc29KOkri15timqZLgB5v8FWoCvSebBz65QvGbkG0aJVOp3uh6zjdEc/4uPVOzs8ahGA7fPBLnLBNTNd2V09zO7oSH/SZ4FwmloESQIDAQAB",
-  "version": "0.2",
+  "version": "1.1",
   "icons":{
-	"48":"icon48.png",
-	"128":"icon128.png"
+	"48":"images/icon48.png",
+	"128":"images/icon128.png"
 	},
 	"author":"Luan Ngo",
-	
   "browser_action": {
-    "default_icon": "icon36.png",
+    "default_icon": "images/icon36.png",
     "default_popup": "index.html"
   },
   "permissions": [
 	"notifications",
 	"clipboardWrite",
-    "http://www.local-motion.ca/",
+    "http://www.flippit.ca/",
 	    "https://accounts.google.com/o/oauth2/token",
     "https://www.googleapis.com/chromewebstore/v1.1/notifications",
 	"tabs",
 	"gcm",
-      "storage",
-      "downloads"
+    "storage",
+    "downloads"
   ]
 }
