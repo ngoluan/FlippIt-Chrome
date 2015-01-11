@@ -2,182 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb35817f-dbfc-474f-b7ff-7039f558ae49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/androidIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bikeIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bixiCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiIcon0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiIcon0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiIcon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiIcon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiIcon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiIcon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiIcon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiIcon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiIcon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiIcon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiIcon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiIcon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bixiLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiMarker0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiMarker0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiMarker1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiMarker1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiMarker2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiMarker2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiMarker3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiMarker3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiMarker4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiMarker4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/bixiMarker5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/bixiMarker5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blackberryIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blackberryicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/blackberryicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blackberrysoonicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/blackberrysoonicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/busIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/busstopMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/busstopMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/c2gBingo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/c2gBingo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c2gCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/c2gCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c2gLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/c2gMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/c2gMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/carIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chromeicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/chromeicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/clear_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/cloud_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/computer_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/computer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/computer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/copy_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/delete_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/doublearrows_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/goCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/goMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/goMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/googleicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icon96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon96padding.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/icon96padding.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/lavalBack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/lavalBackm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/lavalBus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/lavalBusm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/open_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/parkingIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/parkingMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/parkingMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/personMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/phone_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/questionIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/refresh_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/send_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/sherbrookeBack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/sherbrookeBackm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/sherbrookeBus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/sherbrookeBusm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sherbrookeCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/stlBack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/stlBackm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/stlBus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/stlBusm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/stlCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/streetcarIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/subwayMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/subwayMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/thunderbayBack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/thunderbayBackm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/thunderbayBus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/thunderbayBusm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thunderbayCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcBack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/ttcBack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcBackm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/ttcBackm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcBus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/ttcBus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcBusm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/ttcBusm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ttcCluster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcInner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ttcLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcMarker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcStreetcar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/ttcStreetcar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hi/ttcStreetcarm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lo/ttcStreetcarm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/images/upload_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/windowsIcon.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flippit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jq/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jq/jquery.mobile-1.4.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jq/jquery.mobile-1.4.5.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jq/jquery.mobile.structure-1.4.5.min.css" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\changeDeviceName.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\db.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\deleteDevice.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\deleteMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\getDevices.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\getHistory.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\getMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\images\history_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\images\logout_white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\images\send_white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\bxslider\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\jQuery.FileDrop.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\jQuery.FileDrop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\jq\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\jq\jquery.mobile-1.4.4.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\jq\jquery.mobile-1.4.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\pass.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\nbproject\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\nbproject\project.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\projectFilesBackup\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\regUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\saveMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\sendAndroid.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\sendChrome.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\db.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\getDevices_v1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\getFolderSize_v1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\sendFunction_v1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\send_v1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\signinUser_v1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\test.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\server\upload_v1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\signinUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\upload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\uploads\luan.t.ngo@gmail.com\img16950159649745.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\uploads\luan.t.ngo@gmail.com\openblue.png" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\icon128.png" afterPath="$PROJECT_DIR$/images/icon128.png" />
-      <change type="MOVED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\icon36.png" afterPath="$PROJECT_DIR$/images/icon36.png" />
-      <change type="MOVED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\icon48.png" afterPath="$PROJECT_DIR$/images/icon48.png" />
-      <change type="MOVED" beforePath="C:\Users\Luan\Apps\Pass-Chrome\lib\pass.css" afterPath="$PROJECT_DIR$/lib/flippit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/open_blue.png" afterPath="$PROJECT_DIR$/images/open_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/eventPage.js" afterPath="$PROJECT_DIR$/lib/eventPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bxslider/jquery.bxslider.css" afterPath="$PROJECT_DIR$/lib/bxslider/jquery.bxslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jq/jquery.mobile.icons.min.css" afterPath="$PROJECT_DIR$/lib/jq/jquery.mobile.icons.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jq/theme.css" afterPath="$PROJECT_DIR$/lib/jq/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jq/theme.min.css" afterPath="$PROJECT_DIR$/lib/jq/theme.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pass-Chrome.iws" />
@@ -204,40 +29,18 @@
       <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="595">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flippit.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/flippit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5704698" vertical-offset="8330" max-vertical-offset="10132">
-              <caret line="510" column="62" selection-start-line="510" selection-start-column="62" selection-end-line="510" selection-end-column="62" />
-              <folding>
-                <marker date="1420991342888" expanded="true" signature="2258:2284" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="9044:9095" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="9313:9344" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15355:15371" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15372:16040" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15401:15436" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15477:16030" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15525:15590" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15708:15773" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="15892:15957" placeholder="..." />
-                <marker date="1420991342888" expanded="true" signature="17349:17361" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="561" max-vertical-offset="2312">
-              <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="2312">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -336,20 +139,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pass-Chrome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pass-Chrome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -374,14 +163,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -392,14 +173,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -407,6 +186,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -458,13 +247,18 @@
       <created>1417901648892</created>
       <updated>1417901648892</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="01010">
+      <created>1421003343422</created>
+      <updated>1421003343422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1384" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5905512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -479,7 +273,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -507,12 +300,29 @@
     <MESSAGE value="11302" />
     <MESSAGE value="1203" />
     <MESSAGE value="1206" />
-    <option name="LAST_COMMIT_MESSAGE" value="1206" />
+    <MESSAGE value="01010" />
+    <option name="LAST_COMMIT_MESSAGE" value="01010" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2312">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
@@ -523,29 +333,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="561" max-vertical-offset="2312">
-          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flippit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5704698" vertical-offset="8330" max-vertical-offset="10132">
-          <caret line="510" column="62" selection-start-line="510" selection-start-column="62" selection-end-line="510" selection-end-column="62" />
-          <folding>
-            <marker date="1420991342888" expanded="true" signature="2258:2284" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="9044:9095" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="9313:9344" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15355:15371" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15372:16040" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15401:15436" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15477:16030" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15525:15590" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15708:15773" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="15892:15957" placeholder="..." />
-            <marker date="1420991342888" expanded="true" signature="17349:17361" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
