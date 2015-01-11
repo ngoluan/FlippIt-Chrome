@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb35817f-dbfc-474f-b7ff-7039f558ae49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/flippit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/flippit.js" afterPath="$PROJECT_DIR$/lib/flippit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pass-Chrome.iws" />
@@ -251,7 +251,11 @@
       <created>1421003343422</created>
       <updated>1421003343422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="01010">
+      <created>1421008394336</created>
+      <updated>1421008394336</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
