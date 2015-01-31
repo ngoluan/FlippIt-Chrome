@@ -1,9 +1,11 @@
 html, body {
-    font-weight:200;
+    font-weight: 200;
 }
-.container{
-	max-width:600px;
+
+.container {
+    max-width: 600px;
 }
+
 .title {
     font-size: 18px;
     display: inline-block;
@@ -18,46 +20,53 @@ html, body {
     background-size: cover;
     display: inline-block;
 }
-.logo,.title{
+
+.logo, .title {
     cursor: pointer;
 }
+
 .bx-viewport {
     height: 140px !important;
-	border-radius: 8px;
+    border-radius: 8px;
 }
-.slider-wrapper{
-    width:100%;
-	border-radius:8px;
-	background:white;
-	-moz-box-shadow: 0 0 5px #ccc;
+
+.slider-wrapper {
+    width: 100%;
+    border-radius: 8px;
+    background: white;
+    -moz-box-shadow: 0 0 5px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc;
     box-shadow: 0 0 5px #ccc;
 }
+
 #message {
-	overflow: auto;
-	background-color: #ffffff;
-	border-color: #e3e3e3;
-	color: #333333;
-	text-shadow: 0 0 0 #f3f3f3;
-	margin: .5em 0;
-	padding:8px;
-	border-width: 1px;
-	border-style: solid;
-	box-shadow: inset 0 1px 3px /*{global-box-shadow-size}*/ rgba(0, 0, 0, .2) /*{global-box-shadow-color}*/;
-	background-clip: padding-box;
-	border-radius: .6em /*{global-radii-blocks}*/;
-	height: 200px;
+    overflow: auto;
+    background-color: #ffffff;
+    border-color: #e3e3e3;
+    color: #333333;
+    text-shadow: 0 0 0 #f3f3f3;
+    margin: .5em 0;
+    padding: 8px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: inset 0 1px 3px /*{global-box-shadow-size}*/ rgba(0, 0, 0, .2) /*{global-box-shadow-color}*/;
+    background-clip: padding-box;
+    border-radius: .6em /*{global-radii-blocks}*/;
+    height: 200px;
 }
-#message:focus{
-	box-shadow: 0 0 12px #38c;
-	outline:0px solid transparent;
+
+#message:focus {
+    box-shadow: 0 0 12px #38c;
+    outline: 0px solid transparent;
 }
-#messageContainer{
-	margin-top:16px;
-	padding:8px;
-	border-radius:8px;
+
+#messageContainer {
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 8px;
 }
-#deviceName {
+
+#deviceName, #searchInput {
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -70,47 +79,52 @@ html, body {
     border: none;
     color: #FFF;
     opacity: 0;
-	width:250px;
+    width: 250px;
 }
+
 .footer {
     font-size: 14px;
 }
+
 .footer .footerButtons {
     float: right;
     cursor: pointer;
 }
+
 .footer .footerButton {
     margin-left: 4px;
     display: inline-block;
 }
-#toast{
-    z-index: 99;
-	background-color: #4b5c62;
-	width: 400px;
-	border-radius: 4px;
-	position:absolute;
-	left:50%;
-    margin-left:-200px;
-	bottom:30px;
-	text-align: center;
-	padding:4px;
-	-webkit-box-shadow: 0px 0px 12px -1px rgba(56, 56, 56, 1);
-	-moz-box-shadow: 0px 0px 12px -1px rgba(56, 56, 56, 1);
-	box-shadow: 0px 0px 12px -1px rgba(56, 56, 56, 1);
+
+#toast {
+    background-color: #4b5c62;
+    width: 400px;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    bottom: 30px;
+    text-align: center;
+    padding: 4px;
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 12px -1px rgba(56, 56, 56, 1);
 }
+
 .buttons {
     position: absolute;
     right: 0;
     top: 0;
     width: 24px;
 }
+
 .button {
     height: 24px;
     width: 24px;
     float: right;
     margin-top: 4px;
-    z-index:99;
-	cursor: pointer;
+    z-index: 99;
+    cursor: pointer;
 }
 
 .header .button {
@@ -118,54 +132,72 @@ html, body {
     width: 32px;
     height: 32px;
 }
+
 .button.deviceSettings.white, .button.name.white {
     background: url('../images/deviceSettings_white.png');
     background-size: cover;
 }
+
 .button.delete.white {
     background: url('../images/delete_white.png');
     background-size: cover;
 }
+
 .button.history.white, .button.save.white {
     background: url('../images/history_white.png');
     background-size: cover;
 }
+
 .button.send.white {
     background: url('../images/send_white.png');
     background-size: cover;
 }
+
 .button.refresh.white {
     background: url('../images/refresh_white.png');
     background-size: cover;
 }
+
+.button.search.white {
+    background: url('../images/search_white.png');
+    background-size: cover;
+}
+
 .button.upload {
     background: url('../images/upload_white.png');
     background-size: cover;
 }
+
 .button.clear {
     background: url('../images/clear_white.png');
     background-size: cover;
 }
+
 .button.delete {
     background: url('../images/delete_blue.png');
     background-size: cover;
 }
+
 .button.download {
     background: url('../images/download_blue.png');
     background-size: cover;
 }
+
 .button.copy {
     background: url('../images/copy_blue.png');
     background-size: cover;
 }
+
 .button.send {
     background: url('../images/send_blue.png');
     background-size: cover;
 }
+
 .button.open {
     background: url('../images/open_blue.png');
     background-size: cover;
 }
+
 .largeButton {
     height: 36px;
     width: 90%;
@@ -209,6 +241,7 @@ html, body {
     top: 4px;
     position: absolute;
 }
+
 .device .button-back {
     opacity: 0;
     height: 28px;
@@ -220,7 +253,7 @@ html, body {
     margin-top: 2px;
 }
 
-.device .button-back.visible, #deviceName.visible {
+.device .button-back.visible, #deviceName.visible, #searchInput.visible {
     opacity: 1;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
@@ -234,6 +267,7 @@ html, body {
     opacity: 0.8;
     margin-top: 2px;
 }
+
 .device .buttons {
     position: absolute;
     right: 0;
@@ -249,6 +283,7 @@ html, body {
     transition: all 100ms ease;
     background: #FFF954;
 }
+
 .device {
     margin-top: 12px;
     margin-bottom: 12px;
@@ -258,12 +293,14 @@ html, body {
     border-radius: 5px;
     position: relative;
 }
+
 .device .img {
     height: 100px;
     width: 100px;
     margin: auto;
     opacity: 0.4;
 }
+
 .device h2 {
     background: #4b5c62;
     font-size: 18px;
@@ -289,7 +326,8 @@ html, body {
     background: #FFF954;
     font-weight: 400;
 }
-#historyContainer .history{
+
+#historyContainer .history {
     position: relative;
     padding: 6px;
     margin-top: 6px;
@@ -303,30 +341,31 @@ html, body {
 #historyContainer .message {
     font-size: 16px;
     margin-right: 24px;
-	max-height: 150px;
+    max-height: 150px;
     text-overflow: ellipsis;
-	color:#333;
+    color: #333;
 }
+
 #historyContainer .image {
     max-width: 95%;
     max-height: 95%;
     margin-right: 48px;
 }
 
-#historyContainer .date{
+#historyContainer .date {
     font-size: 12px;
     color: #858585;
 }
 
-#historyContainer .buttons{
+#historyContainer .buttons {
     right: 4px;
 }
 
-#historyContainer .buttons .button{
+#historyContainer .buttons .button {
     display: block;
 }
 
-#historyContainer .buttons .button:hover,#header .button:hover {
+#historyContainer .buttons .button:hover, #header .button:hover {
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -334,28 +373,56 @@ html, body {
     transition: all 100ms ease;
     transform: scale(1.1, 1.1);
 }
-.back-baseBlue{
-	background:#33b2e3;
-}
-.back-grey{
-	background:#F2F2F2;
+
+.back-baseBlue {
+    background: #33b2e3;
 }
 
-.margins-centre{
-	margin-left:auto;
-	margin-right:auto;
+.back-grey {
+    background: #F2F2F2;
 }
-.font-white{
-	color:white;
-}
-::-webkit-input-placeholder { color:#F2F2F2; }
-::-moz-placeholder { color:#F2F2F2; } /* firefox 19+ */
-:-ms-input-placeholder { color:#F2F2F2; } /* ie */
-input:-moz-placeholder { color:#F2F2F2; }
 
-::-webkit-scrollbar-thumb{border-radius:3px;background-color: rgb(176, 176, 176);height:12px; opacity:0.2;}
-::-webkit-scrollbar{width:6px;}
-::-webkit-scrollbar-track {  background-color: rgba(51,178,227,0.0);  }
+.margins-centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font-white {
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: #F2F2F2;
+}
+
+::-moz-placeholder {
+    color: #F2F2F2;
+}
+
+/* firefox 19+ */
+:-ms-input-placeholder {
+    color: #F2F2F2;
+}
+
+/* ie */
+input:-moz-placeholder {
+    color: #F2F2F2;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgb(176, 176, 176);
+    height: 12px;
+    opacity: 0.2;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(51, 178, 227, 0.0);
+}
 
 /* The MIT License */
 .fileUploads,
@@ -365,7 +432,7 @@ input:-moz-placeholder { color:#F2F2F2; }
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-	color: #4B5C62;
+    color: #4B5C62;
 }
 
 .fileUploads {

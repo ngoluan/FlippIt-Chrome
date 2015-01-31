@@ -361,7 +361,7 @@ html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
     background-color: #FFF954 /*{a-bdown-background-color}*/;
-	border-color: #FFF954 /*{a-bhover-border}*/;
+    border-color: #FFF954 /*{a-bhover-border}*/;
     color: #333333 /*{a-bdown-color}*/;
     text-shadow: 0 /*{a-bdown-shadow-x}*/ 0 /*{a-bdown-shadow-y}*/ 0 /*{a-bdown-shadow-radius}*/ #f3f3f3 /*{a-bdown-shadow-color}*/;
 }
